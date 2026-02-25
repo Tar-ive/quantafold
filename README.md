@@ -1,7 +1,7 @@
 # QuantaFold: A Lightweight AI for High-Speed Protein Classification
 
 ## 🏆 **TL;DR: From Days to Seconds**
-**QuantaFold transforms protein function identification from a multi-day research bottleneck into a 5-second prediction**, achieving **97.9% accuracy** on the 1,000 most common protein families while democratizing access to computational biology tools.
+**QuantaFold finetunes a model for protein function identification from a 5-second prediction**, achieving **97.9% accuracy** on the 1,000 most common protein families while democratizing access to computational biology tools.
 
 **➡️ [Live Demo: Interactive Gradio Web App](https://huggingface.co/spaces/Tarive/protein_fold_hack_nation_ai)**
 
