@@ -1,9 +1,7 @@
 # QuantaFold: A Lightweight AI for High-Speed Protein Classification
 
-## 🏆 **TL;DR: From Days to Seconds**
-**QuantaFold finetunes a model for protein function identification from a 5-second prediction**, achieving **97.9% accuracy** on the 1,000 most common protein families while democratizing access to computational biology tools.
-
-**➡️ [Live Demo: Interactive Gradio Web App](https://huggingface.co/spaces/Tarive/protein_fold_hack_nation_ai)**
+## 🏆 **TL;DR:**
+**QuantaFold finetunes a model for protein function identification from a 5-second prediction**, achieving **97.9% accuracy** on the 1,000 most common protein families while democratizing access to computational biology tools. Inspired by AlphaFold
 
 Hugging Face Model Card: https://huggingface.co/Tarive/esm2_t12_35M_UR50D-finetuned-pfam-1k
 
@@ -281,25 +279,17 @@ class WeightedTrainer(Trainer):
 - **Commercial Applications:** Licensed solutions for pharmaceutical R&D
 
 ---
+### Citation
+```bibtex
+@misc{adhsaksham,
+author = {Adhikari, Saksham and Sharma, Kusum},
+year = {2026},
+month = {09},
+pages = {4},
+title = {QuantaFold: Scaling Protein Language Model Fine-tuning to 5,000 Families Through Systematic Optimization}
+}
+```
 
-## 🏅 **Hackathon Achievement Summary**
+### Acknowledgments
 
-**In 24 hours, QuantaFold achieved:**
-- ✅ **97.9% accuracy** on 1K protein family specialist model (completed)
-- 🔄 **Two parallel generalist models training** (70K and 400K samples)
-- ✅ **80%+ training time reduction** through advanced optimizations (19h → 3-4h)
-- ✅ **Complete deployment** with user-friendly web interface
-- ✅ **Scalable architecture** supporting 5,000+ protein families
-- ✅ **Professional-grade ML pipeline** from research to production
-- 🔄 **Live comparative analysis** of optimization impact across model scales
-
-**This project demonstrates mastery of:**
-- Advanced deep learning optimization techniques
-- Large-scale biological data handling and parallel training strategies  
-- Production ML system deployment with live model iterations
-- Scientific computing best practices with real-time experimentation
-- Cross-disciplinary problem solving (CS + Biology) under time constraints
-
----
-
-*QuantaFold represents the democratization of computational biology - bringing powerful AI tools within reach of every researcher, regardless of their computational resources.*
+- **Google TPU Research Cloud** for compute access
