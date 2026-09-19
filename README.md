@@ -14,21 +14,11 @@ Weights and Biases Tracker - 400k model - https://wandb.ai/tarive22-shivoham/hug
 Weights and Biases Tracker - 100k model - https://wandb.ai/tarive22-shivoham/huggingface/runs/vklqmoh2?nw=nwusertarive22
 
 
-
-
-## 📁 **Repository Structure & Visualizations**
-
-
-### **Key Visualization URLs**
-- **Dataset Analysis:** `1.jpg`
-- **Length Distribution:** `2.jpg`
-- **Training Metrics:** `visuals.png`
-
 ---
 
 ## 🎯 **Project Overview**
 
-**The Challenge:** Protein function identification is a critical bottleneck in drug discovery and biological research. While powerful models like AlphaFold exist, their massive computational requirements (requiring supercomputers) make them inaccessible to most academic labs, startups, and researchers worldwide.
+**The Challenge:** Protein function identification is a critical bottleneck in drug discovery and biological research. Making AlphaFold grade models availabe to researchers with less amount of resources availabe.
 
 **The Solution:** QuantaFold is a complete end-to-end system that fine-tunes the lightweight ESM-2 model to classify proteins into **5,000 functional families** based solely on amino acid sequences, running efficiently on a single GPU while maintaining research-grade accuracy.
 
@@ -41,8 +31,8 @@ Weights and Biases Tracker - 100k model - https://wandb.ai/tarive22-shivoham/hug
 | Model | Dataset Size | Families | Training Time | Status | Accuracy |
 |-------|-------------|----------|---------------|---------|----------|
 | **Specialist Model** | 1K balanced samples | 1,000 top families | 45 minutes | ✅ **Completed** | **97.9%** |
-| **Optimized Generalist** | 70K stratified samples | 5,000 families | ~3 hours | 🔄 **Training** | TBD |
-| **Full-Scale Generalist** | 400K balanced samples | 5,000 families | ~4 hours | 🔄 **Training** | TBD |
+| **Optimized Generalist** | 70K stratified samples | 5,000 families | ~3 hours | ✅ **Completed**  | **98.4%** |
+| **Full-Scale Generalist** | 400K balanced samples | 5,000 families | ~4 hours | ✅ **Completed**  | **98.1%** |
 
 ### **Computational Optimization Achievements**
 - **Training Time Reduction:** From impossible **19+ hours** → manageable **3-4 hours** (80%+ reduction)
